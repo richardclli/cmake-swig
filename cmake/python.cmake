@@ -3,7 +3,7 @@ if(NOT BUILD_PYTHON)
 endif()
 
 # Use latest UseSWIG module (3.14) and Python3 module (3.18)
-cmake_minimum_required(VERSION 3.18)
+cmake_minimum_required(VERSION 3.17)
 
 # Will need swig
 set(CMAKE_SWIG_FLAGS)
