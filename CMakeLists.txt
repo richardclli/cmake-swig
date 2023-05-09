@@ -70,7 +70,7 @@ option(BUILD_DOTNET "Build .NET Library" OFF)
 message(STATUS "Build .Net: ${BUILD_DOTNET}")
 option(BUILD_JAVA "Build Java Library" OFF)
 message(STATUS "Build Java: ${BUILD_JAVA}")
-option(BUILD_PYTHON "Build Python Library" OFF)
+option(BUILD_PYTHON "Build Python Library" ON)
 message(STATUS "Build Python: ${BUILD_PYTHON}")
 
 # Disable CTest targets
