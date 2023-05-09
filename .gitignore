@@ -1,0 +1,18 @@
+build/
+build*/
+export/
+cache/
+
+.vagrant/
+/ci/samples/java/target
+
+# IDE
+.vs/
+.cache/
+# Kdevelop
+.kdev4/
+*.kdev4
+# vim
+compile_commands.json
+*.swp
+*.user
